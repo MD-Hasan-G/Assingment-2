@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Work+Sans:wght@500&display=swap');
+}
+body{
+    
+}
+
+.header-section{
+    background: rgba(255, 144, 14, 0.1);
+}
+.container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px;
+    
+    
+}
+.logo-section{
+    font-size: 23px;
+    font-family: 'Work Sans';
+}
+.menu-section ul {
+    display: flex;
+
+}
+.menu-section ul li{
+    list-style: none;
+    padding: 15px 20px;
+}
+
+.menu-section ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Work sans';
+    
+}
+.slider-content{
+    margin-top: 30px;
+}
+.slider-content h2{
+    justify-content: center;
+    font-size: 52px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.slider-content p{
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'work sans';
+    line-height: 16px;
+    width: 563px;
+    margin-left: 200px;
+    
+}
+
+.slider-content button{
+    width: 170px;
+    height: 60px;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FF900E;
+    border: none;
+    margin-left: 433px;
+    margin-bottom: 35px;
+}
+
+.slider-content img{
+    width:800px;
+    height: 400px;
+    margin-left: 103px;
+    margin-bottom: 20px;
+}
+.quick-list{
+    margin-top: 40px;
+}
+.quick-section{
+    display: flex;
+    
+}
+
+.quick-images{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 20px;
+}
+.quick-images img{
+    width: 260px;
+    height: 260px;
+}
+.quick-description{
+    margin-left: 45px;
+    margin-top: 186px;
+}
+.quick-description h3{
+    font-size: 30px;
+    font-family: 'work sans';
+    
+}
+.quick-description p{
+    font-family: 'work sans';
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+}
+.quick-1{
+    color: #727272;
+}
+.quick-2{
+    color: #131313;
+}
+
+.quick-3{
+    color: #FF900E;
+}
+
+.quick-description button{
+    width: 160px;
+    height: 55px;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FF900E;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
