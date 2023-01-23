@@ -142,6 +142,7 @@ body{
 .feature{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .feature-content h3{
@@ -159,7 +160,7 @@ body{
 }
 .feature-images img{
     width: 450px;
-    height: 610px;
+    height: 650px;
     padding-left: 30px;
     
 }
@@ -173,7 +174,7 @@ body{
     background-color: #FF900E;
     border: none;
     position: absolute;
-    margin-top: 550px;
+    margin-top: 590px;
     margin-left: -481px;
     padding: 10px;
     color: white;
@@ -185,6 +186,8 @@ body{
 }
 .feature-images button p{
     font-size: 14px;
+    
+
 }
 .feature-list{
     background-color: rgb(253, 249, 245);
@@ -194,6 +197,7 @@ body{
     width: 480px;
     margin-right: 20px;
     margin-left: 20px;
+    
 }
 
 .feature-list p{
