@@ -3,10 +3,7 @@
     padding: 0;
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Work+Sans:wght@500&display=swap');
 }
-body{
-    
-}
-
+/* Start Header Section */
 .header-section{
     background: rgba(255, 144, 14, 0.1);
 }
@@ -14,6 +11,7 @@ body{
     width:1000px;
     margin: 0 auto;
 }
+
 
 .header-content{
     display: flex;
@@ -47,6 +45,7 @@ body{
     margin-top: 30px;
 }
 .slider-content h2{
+    
     justify-content: center;
     font-size: 52px;
     line-height: 48px;
@@ -83,6 +82,10 @@ body{
     margin-left: 103px;
     margin-bottom: 20px;
 }
+/* End Header Section */
+
+
+/* Start Body Section */
 .quick-list{
     margin-top: 40px;
 }
@@ -206,6 +209,7 @@ body{
 }
 
 .some{
+    
     margin-top: 30px;
     margin-bottom: 60px;
 }
@@ -248,6 +252,10 @@ body{
     font-family: 'work sans';
 }
 
+.icon-content:hover{
+    border: 2px solid blue;
+}
+
 .sponser{
     text-align: center;
 }
@@ -272,6 +280,11 @@ body{
     color: white;
 }
 
+
+/* Body End */
+
+
+/* Footer Section Start */
 .footer{
     background: rgba(255, 144, 14, 0.1);
     text-align: center;
@@ -281,3 +294,9 @@ body{
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
+
+
+/* Footer End */
+
+
