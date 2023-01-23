@@ -204,3 +204,80 @@ body{
     font-family: 'work sans';
     font-size: 15px;
 }
+
+.some{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.some h2{
+    font-family: 'work sans';
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.some p{
+    font-family: 'work sans';
+    font-size: 16px;
+    line-height:23px;
+    
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom:150px;
+}
+
+.icon-content{
+    width: 150px;
+    height: 100px;
+    border: 1px solid red;
+    padding: 20px;
+   text-align: center;
+   margin-left: 25px;
+}
+
+.icon-content h2{
+    font-family: 'work sans';
+}
+
+.icon-content p{
+    font-family: 'work sans';
+}
+
+.sponser{
+    text-align: center;
+}
+
+.sponser h1{
+    font-family: 'work sans';
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.sponser p{
+    font-family: 'work sans';
+    font-size: 16px;
+  
+}
+
+.Sponspors-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.footer{
+    background: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    font-size: 17px;
+    font-family: 'work snans';
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
